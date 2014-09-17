@@ -5,14 +5,14 @@ A drag and drop app designed to make editing/creating .chopro files as quick and
 
 ## Git Tutorials
 
-  A particularly nice one:
+A particularly nice one:
 
-    http://pcottle.github.io/learnGitBranching/
+  http://pcottle.github.io/learnGitBranching/
 
-  A load more:
+A load more:
 
-    https://www.bento.io/git
+  https://www.bento.io/git
 
-  The official book:
+The official book:
 
-    http://git-scm.com/book
+  http://git-scm.com/book
