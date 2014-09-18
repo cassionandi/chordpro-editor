@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chordpro Editor</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+</head>
+<body>
+
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One'
+      rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playball'
+      rel='stylesheet' type='text/css'>
+
+<div id="songtitle" class="songtitle">
+  <h1><span>a</span> Song <span>for</span> You</h1>
+  <div class="meta"><h2>by Some Dude</h2></div>
+</div>
+
+<div id="song">
+  <div><h2 class="drag">chorus</h2></div>
+  <p class="drag">This is my amazing song.</p>
+  <p class="drag">It's really really...</p>
+  <p class="drag">Can't think of the right word.</p>
+  <p class="drag">This is my amazing song.</p>
+
+  <div><h2 class="drag">verse</h2></div>
+  <p class="drag">This is a verse.</p>
+  <p class="drag">It's really really...</p>
+  <p class="drag">like a verse.</p>
+</div>
+
+<script src="js/extern/jquery-1.7.2.min.js"></script>
+<script src="js/extern/jquery-ui.min.js"></script>
+<script src="js/extern/jquery.ui.touch-punch.js"></script>
+<script src="js/index.js"></script>
+
+<script>$('.drag').draggable();</script>
+
+</body>
+</html>
